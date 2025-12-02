@@ -1,0 +1,17 @@
+public class operators {
+    public static void main(String[] args) {
+        int a =100;
+        int b=60;
+        System.out.println("Addition:"+(a+b));
+        System.out.println("Subtraction:"+(a-b));
+        System.out.println("Multiplication:"+(a*b));
+        System.out.println("Division:"+(a/b));
+        System.out.println("Modules"+(a%b));
+         boolean x = true;
+        boolean y = false;
+        System.out.println("x && y = " + (x && y));
+        int n = 3;
+        n++;  
+        System.out.println("n++ = " + n);
+    }
+}
